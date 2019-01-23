@@ -26,3 +26,8 @@ def buildAndTest(){
         "sh echo 'my name is arima'"
     }
 }
+#!/usr/bin/env groovy
+
+def call(String name = 'human') {
+  echo "Hello, ${name}."
+}
