@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def sample(String path = '/home/ubuntu/') {
+def call(String path = '/home/ubuntu/') {
         ls ${path}
 }
 
